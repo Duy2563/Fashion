@@ -1,0 +1,134 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.menu{
+   display: flex;
+   align-items: center;
+   background-color: #fff;
+   height: 80px;
+   position: relative;
+   padding: 12px 56px;
+}
+.header__menu__container{
+   display: flex;
+   height: 80px;
+   align-items: center;
+   position: fixed;
+   background-color: #fff;
+   z-index: 500;
+   left: 0;
+   right: 0;
+   padding: 12px 56px;
+   
+}
+.header__menu__left ul li{
+    display: block;
+    float: left;
+}
+.header__menu__left>ul>li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 25px 12px;
+    color: #333f48; 
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.header__menu__left a:hover{
+    color: rgb(170, 38, 38);
+}
+.header__search{
+    display: flex;
+    position: relative;
+    left: 30%;
+    width: 304px;
+    
+}
+.search-input-group{
+    margin-top:auto;
+}
+.search-input-group input{
+    outline: none;
+    border: none;
+    align-items: center;
+    background-color: transparent;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+.search{
+    background-color: transparent;
+    height: 50px;
+    position: relative;
+    top: 2px;
+    border-radius: 20px;
+    width: 250px;
+}
+
+.search i{
+    position: relative;
+    top: 15px;
+    left: 10px;
+    
+}
+.header__group__icon{
+    position: relative;
+    left: 700px;
+    
+}
+.group__icon a{
+    color: black;
+    text-decoration: none;
+    margin: 10px;
+}
+.footer__wrapper {
+    border-top: 4px solid var(--primary-color);
+    padding: 2.5rem;
+    background: black;
+    color: #fff;
+}
+footer__wrapper .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer__wrapper .footer-menu {
+    margin-bottom: 1.5rem;
+}
+.footer__wrapper .footer-menu ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+ul li a {
+    margin: 0;
+    padding: 0;
+    list-style-position: inside;
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+.footer__wrapper .footer-menu ul li {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0 2.4rem;
+    border-left: 1px solid #c4c4c4;
+    border-right: 1px solid #c4c4c4;
+    position: relative;
+    
+}
+.footer__wrapper .footer-coppyright {
+    font-size: 12px;
+    color: #838383;
+    text-align: center;
+    position: relative;
+    
+}
+::-webkit-scrollbar{
+    width: 0.5px;
+}
